@@ -1,0 +1,53 @@
+{
+  "NAME": "Nombre",
+  "PASSWORD": "Contraseña",
+  "EMAIL": "Email",
+  "LOGIN": "Iniciar sesión",
+  "SIGNUP": "Registrarse",
+
+  "TAB1_TITLE": "Home",
+  "TAB2_TITLE": "Buscar",
+  "TAB3_TITLE": "Ajustes",
+
+  "MAP_TITLE": "Mapa",
+
+  "TUTORIAL_SLIDE1_TITLE": "Muchachos Softbol",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "",
+
+  "TUTORIAL_SLIDE2_TITLE": "",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "",
+
+  "TUTORIAL_SLIDE3_TITLE": "Momentos",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "",
+
+  "SETTINGS_TITLE": "Ajustes",
+  "SETTINGS_OPTION1": "Manager: Miguel Peña",
+  "SETTINGS_OPTION2": "Delegados: Dennis Moncada Jonathan Escobar",
+  "SETTINGS_OPTION3": "Patrocinante: MONESCO",
+  "SETTINGS_OPTION4": "",
+
+  "SETTINGS_PAGE_PROFILE": "Cuerpo Tecnico",
+
+  "WELCOME_TITLE": "Bienvenido/a",
+
+  "LOGIN_TITLE": "Iniciar sesión",
+  "LOGIN_ERROR": "practica de inicio de sesion",
+  "LOGIN_BUTTON": "Iniciar sesión",
+  "SIGNUP_TITLE": "Registro",
+  "SIGNUP_ERROR": "practica de registro de usuario",
+  "SIGNUP_BUTTON": "Registrarse",
+
+  "LIST_MASTER_TITLE": "Jugadores",
+
+  "ITEM_CREATE_TITLE": "Nuevo Item",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Añadir Imagen",
+
+  "CARDS_TITLE": "Social",
+
+  "SEARCH_TITLE": "Buscar",
+  
+    
+    "DONE_BUTTON" : "Done",
+  "CANCEL_BUTTON" : "Cancel",
+  "DELETE_BUTTON" : "Delete"
+}

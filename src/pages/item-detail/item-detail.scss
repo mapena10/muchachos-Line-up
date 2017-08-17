@@ -1,0 +1,40 @@
+page-item-detail {
+  .item-profile {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+  }
+    .nro{
+        padding: 10px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        border: solid;
+        border-color: yellow;
+        background-color: darkblue;
+        text-align: center;
+        color: coral;
+        border-radius: 15%;
+        }
+
+  .item-detail {
+    width: 100%;
+    background: white;
+    position: absolute;
+  }
+    .grid-detail{
+        padding-top:80px;
+    }
+    .table{
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+      border-spacing: 0;
+      border-collapse: collapse;
+      text-align: center;    
+    }
+    tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+    
+}

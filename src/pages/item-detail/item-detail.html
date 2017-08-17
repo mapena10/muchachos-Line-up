@@ -1,0 +1,164 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{ item.name }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'"></div>
+    <div>
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <h2>
+                        <samp class="nro">{{item.nroJugador}}</samp>{{item.name}}
+                    </h2>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <p>{{item.about}}</p>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <h3>Campeonato Galarraga</h3>
+            </ion-row>
+            <ion-row>
+                <h4>Ronda Regular</h4>
+            </ion-row>
+            <ion-row>
+                <table class="table">
+                    <tr>
+                        <th>J</th>
+                        <th>VB</th>
+                        <th>H</th>
+                        <th>2B</th>
+                        <th>3B</th>
+                        <th>Hr</th>
+                        <th>CI</th>
+                        <th>CA</th>
+                        <th>BB</th>
+                        <th>K</th>
+                        <th>AVG</th>
+                    </tr>
+                    <tr *ngIf="item.juego[0]">
+                        <td>{{item.juego[0].j}}</td>
+                        <td>{{item.juego[0].vb}}</td>
+                        <td>{{item.juego[0].h}}</td>
+                        <td>{{item.juego[0].h2}}</td>
+                        <td>{{item.juego[0].h3}}</td>
+                        <td>{{item.juego[0].hr}}</td>
+                        <td>{{item.juego[0].ci}}</td>
+                        <td>{{item.juego[0].ca}}</td>
+                        <td>{{item.juego[0].bb}}</td>
+                        <td>{{item.juego[0].k}}</td>
+                        <td>{{item.juego[0].avg}}</td>
+                    </tr>
+                    <tr *ngIf="item.juego[1]">
+                        <td>{{item.juego[1].j}}</td>
+                        <td>{{item.juego[1].vb}}</td>
+                        <td>{{item.juego[1].h}}</td>
+                        <td>{{item.juego[1].h2}}</td>
+                        <td>{{item.juego[1].h3}}</td>
+                        <td>{{item.juego[1].hr}}</td>
+                        <td>{{item.juego[1].ci}}</td>
+                        <td>{{item.juego[1].ca}}</td>
+                        <td>{{item.juego[1].bb}}</td>
+                        <td>{{item.juego[1].k}}</td>
+                        <td>{{item.juego[1].avg}}</td>
+                    </tr>
+                    <tr *ngIf="item.juego[2]">
+                        <td>{{item.juego[2].j}}</td>
+                        <td>{{item.juego[2].vb}}</td>
+                        <td>{{item.juego[2].h}}</td>
+                        <td>{{item.juego[2].h2}}</td>
+                        <td>{{item.juego[2].h3}}</td>
+                        <td>{{item.juego[2].hr}}</td>
+                        <td>{{item.juego[2].ci}}</td>
+                        <td>{{item.juego[2].ca}}</td>
+                        <td>{{item.juego[2].bb}}</td>
+                        <td>{{item.juego[2].k}}</td>
+                        <td>{{item.juego[2].avg}}</td>
+                    </tr>
+                    <tr *ngIf="item.juego[3]">
+                        <td>{{item.juego[3].j}}</td>
+                        <td>{{item.juego[3].vb}}</td>
+                        <td>{{item.juego[3].h}}</td>
+                        <td>{{item.juego[3].h2}}</td>
+                        <td>{{item.juego[3].h3}}</td>
+                        <td>{{item.juego[3].hr}}</td>
+                        <td>{{item.juego[3].ci}}</td>
+                        <td>{{item.juego[3].ca}}</td>
+                        <td>{{item.juego[3].bb}}</td>
+                        <td>{{item.juego[3].k}}</td>
+                        <td>{{item.juego[3].avg}}</td>
+                    </tr>
+                    <tr *ngIf="item.juego[4]">
+                        <td>{{item.juego[4].j}}</td>
+                        <td>{{item.juego[4].vb}}</td>
+                        <td>{{item.juego[4].h}}</td>
+                        <td>{{item.juego[4].h2}}</td>
+                        <td>{{item.juego[4].h3}}</td>
+                        <td>{{item.juego[4].hr}}</td>
+                        <td>{{item.juego[4].ci}}</td>
+                        <td>{{item.juego[4].ca}}</td>
+                        <td>{{item.juego[4].bb}}</td>
+                        <td>{{item.juego[4].k}}</td>
+                        <td>{{item.juego[4].avg}}</td>
+                    </tr>
+                    <tr *ngIf="item.juego[5]">
+                        <td>{{item.juego[5].j}}</td>
+                        <td>{{item.juego[5].vb}}</td>
+                        <td>{{item.juego[5].h}}</td>
+                        <td>{{item.juego[5].h2}}</td>
+                        <td>{{item.juego[5].h3}}</td>
+                        <td>{{item.juego[5].hr}}</td>
+                        <td>{{item.juego[5].ci}}</td>
+                        <td>{{item.juego[5].ca}}</td>
+                        <td>{{item.juego[5].bb}}</td>
+                        <td>{{item.juego[5].k}}</td>
+                        <td>{{item.juego[5].avg}}</td>
+                    </tr>
+                    <tr *ngIf="item.juego[6]">
+                        <td>{{item.juego[6].j}}</td>
+                        <td>{{item.juego[6].vb}}</td>
+                        <td>{{item.juego[6].h}}</td>
+                        <td>{{item.juego[6].h2}}</td>
+                        <td>{{item.juego[6].h3}}</td>
+                        <td>{{item.juego[6].hr}}</td>
+                        <td>{{item.juego[6].ci}}</td>
+                        <td>{{item.juego[6].ca}}</td>
+                        <td>{{item.juego[6].bb}}</td>
+                        <td>{{item.juego[6].k}}</td>
+                        <td>{{item.juego[6].avg}}</td>
+                    </tr>
+                    <tr *ngIf="item.juego[7]">
+                        <td>{{item.juego[7].j}}</td>
+                        <td>{{item.juego[7].vb}}</td>
+                        <td>{{item.juego[7].h}}</td>
+                        <td>{{item.juego[7].h2}}</td>
+                        <td>{{item.juego[7].h3}}</td>
+                        <td>{{item.juego[7].hr}}</td>
+                        <td>{{item.juego[7].ci}}</td>
+                        <td>{{item.juego[7].ca}}</td>
+                        <td>{{item.juego[7].bb}}</td>
+                        <td>{{item.juego[7].k}}</td>
+                        <td>{{item.juego[7].avg}}</td>
+                    </tr>
+                    <tr *ngIf="item.juego[8]">
+                        <td>{{item.juego[8].j}}</td>
+                        <td>{{item.juego[8].vb}}</td>
+                        <td>{{item.juego[8].h}}</td>
+                        <td>{{item.juego[8].h2}}</td>
+                        <td>{{item.juego[8].h3}}</td>
+                        <td>{{item.juego[8].hr}}</td>
+                        <td>{{item.juego[8].ci}}</td>
+                        <td>{{item.juego[8].ca}}</td>
+                        <td>{{item.juego[8].bb}}</td>
+                        <td>{{item.juego[8].k}}</td>
+                        <td>{{item.juego[8].avg}}</td>
+                    </tr>
+                </table>
+            </ion-row>
+        </ion-grid>
+    </div>
+</ion-content>

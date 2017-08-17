@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+      MUCHACHOS LINE UP
+    </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-auto>
+                <ion-img width="70" height="70" src="assets/img/log.png"></ion-img>
+            </ion-col>
+            <ion-col >
+                <h1> Muchachos </h1>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-item>
+                <ion-label>jugadores</ion-label>
+                <ion-select>
+                    <ion-option>
+                      {{item.name}}{{item.nroJugador}}
+                    </ion-option>
+                </ion-select>
+            </ion-item>
+        </ion-row>
+    </ion-grid>
+</ion-content>
